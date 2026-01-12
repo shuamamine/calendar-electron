@@ -1,0 +1,94 @@
+ @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+ * {
+            box-sizing: border-box;
+        }
+
+        @font-face {
+            font-family: 'Pixeboy';
+            src: url('./assets/Pixeboy.ttf') format('truetype');
+        }
+
+        body {
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+            user-select: none;
+            -webkit-app-region: drag;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Pixeboy', sans-serif;
+        }
+        button, input, a {
+  -webkit-app-region: no-drag;
+}
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            width: 13.375rem;
+            height: 14.25rem;
+            padding: 1rem 1.0625rem;
+            border-radius: 20px;
+            border: 2px solid #c079ff;
+            background: linear-gradient(90deg, #efe2ff 0%, #e0c1ff 100%);
+        }
+
+        .heading-cal {
+            display: flex;
+            width: 157px;
+            aspect-ratio: 157/27;
+            padding: 0.25rem 0.625rem;
+            justify-content: center;
+            align-items: center;
+            border-radius: 6.25rem;
+            border: 1px solid #c079ff;
+            background: rgba(210, 164, 255, 0.4);
+            color: #fff;
+            font-family: 'Pixeboy', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .calendar {
+            display: flex;
+            width: 11.125rem;
+            height: 9.9375rem;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            gap: 0;
+            padding: 12px 24px;
+            border-radius: 15px;
+            border: 3px solid #b58cd9;
+            background: #ffe8f5;
+        }
+
+        #day {
+            font-family: 'Pixeboy', sans-serif;
+            font-weight: 400;
+            font-size: 120px;
+            line-height: 100px;
+            letter-spacing: 6%;
+            text-align: center;
+            color: #ffffff;
+            -webkit-text-stroke: 1.5px #b58cd9;
+            margin: 0;
+            padding: 0;
+        }
+
+        #month {
+           font-family: 'Pixeboy', sans-serif;
+            font-weight: 400;
+            font-size: 44px;
+            line-height: 20px;
+            letter-spacing: 20%;
+            text-align: center;
+            color: #ffffff;
+            -webkit-text-stroke: 1.5px #b58cd9;
+            margin: 0;
+            padding: 0;
+            text-transform: uppercase;
+        }
