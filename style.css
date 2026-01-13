@@ -32,8 +32,8 @@
             height: 14.25rem;
             padding: 1rem 1.0625rem;
             border-radius: 20px;
-            border: 2px solid #c079ff;
-            background: linear-gradient(90deg, #efe2ff 0%, #e0c1ff 100%);
+            border: 2px solid #2191c1;
+            background: linear-gradient(90deg, hsla(198, 68%, 46%, 1) 0%, hsla(193, 49%, 75%, 1) 100%);
         }
 
         .heading-cal {
@@ -44,8 +44,8 @@
             justify-content: center;
             align-items: center;
             border-radius: 6.25rem;
-            border: 1px solid #c079ff;
-            background: rgba(210, 164, 255, 0.4);
+            border: 1px solid #e7a375;
+            background: #daab97;
             color: #fff;
             font-family: 'Pixeboy', sans-serif;
             font-size: 16px;
@@ -62,8 +62,8 @@
             gap: 0;
             padding: 12px 24px;
             border-radius: 15px;
-            border: 3px solid #b58cd9;
-            background: #ffe8f5;
+            border: 3px solid #e7a375;
+            background: #edc48b;
         }
 
         #day {
@@ -74,7 +74,7 @@
             letter-spacing: 6%;
             text-align: center;
             color: #ffffff;
-            -webkit-text-stroke: 1.5px #b58cd9;
+            -webkit-text-stroke: 1.5px #e7a375;
             margin: 0;
             padding: 0;
         }
@@ -87,7 +87,7 @@
             letter-spacing: 20%;
             text-align: center;
             color: #ffffff;
-            -webkit-text-stroke: 1.5px #b58cd9;
+            -webkit-text-stroke: 1.5px #e7a375;
             margin: 0;
             padding: 0;
             text-transform: uppercase;
